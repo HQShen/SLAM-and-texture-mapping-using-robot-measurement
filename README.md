@@ -2,7 +2,7 @@
 
 This is a project of SLAM using particle filter, with the data of IMU, odometry, Hokuyo LIDAR scan and RGBD measurements to localize the robot and build a 2-D occupancy grid map of the environment.
 
-Run the main.py and choose different dataset, you will get different results.
+Run the main.py and choose different dataset, you will get the results.
 
 ![image](results/result_of_dataset20_map.gif)
 
