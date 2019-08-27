@@ -1,6 +1,6 @@
 # SLAM-and-texture-mapping-using-robot-measurement
 
-This is a project of SLAM using particle filter, using the IMU, odometry, Hokuyo LIDAR scan and RGBD measurements to localize the robot and build a 2-D occupancy grid map of the environment.
+This is a project of SLAM using particle filter, with the data of IMU, odometry, Hokuyo LIDAR scan and RGBD measurements to localize the robot and build a 2-D occupancy grid map of the environment.
 
 Run the main.py and choose different dataset, you will get different results.
 
