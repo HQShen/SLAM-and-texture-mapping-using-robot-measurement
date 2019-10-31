@@ -67,8 +67,8 @@ class Robot(object):
             xmap, ymap = point_in_map(xw, yw, xmin, ymin, res)
 
             p.w, index = mapCorrelation(im, xmap, ymap)
-            p.x = p.x + res * (index[0] - 4)
-            p.y = p.y + res * (index[1] - 4)
+            p.x = p.x + res * (index[1] - 4)
+            p.y = p.y + res * (index[0] - 4)
         self._find_best_particle()
         self._resample()
 
